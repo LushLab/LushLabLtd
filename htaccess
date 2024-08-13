@@ -1,0 +1,9 @@
+# Redirect non-www to www
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^lushlab\.uk [NC]
+RewriteRule ^(.*)$ https://www.lushlab.uk/$1 [L,R=301]
+
+# Remove 'index.php' from the URL
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ https://www.lushlab.uk/ [R=301,L]

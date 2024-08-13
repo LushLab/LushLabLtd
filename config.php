@@ -1,0 +1,5 @@
+<?php
+// Instagram API Credentials
+$accessToken = 'IGQVJWajNIMVNORVUzSzBYam1VY3FhYkF0dDl1ZAW9SQmRXMXhjajM2bzlINm01TG1EM2p1MGFybzIwVTNLYnVSUXFhaFVBZAjNJd3VqaDFIQVBDRXNLaDZAJTWJaRG13S3JwNlFzakk2RmtFalZAiQzVPcQZDZD';
+$userID = '_.demah._';
+?>
